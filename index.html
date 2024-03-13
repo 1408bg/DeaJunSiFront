@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <title>대전시 - 로그인</title>
+  <title>대전시</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="https://daejeonsi.nanu.cc/assets/logo.png">
   <link href="index.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1><a href="https://daejeonsi.nanu.cc"><img src="https://daejeonsi.nanu.cc/assets/DJS_LOGO_WIDE.png"></a></h1>
-    <nav>
-        <ul>
-            <li><a href="https://daejeonsi.nanu.cc/login">로그인</a></li>
-        </ul>
-    </nav>
-  </header>
-  <section>
-    <div class="intro">
-        대신 전해드리는 시간표
-        <div class="login-wrapper">
-            <h2>Login</h2>
-            <form method="post" action="https://daejeonsi.nanu.cc/api_register" id="login-form">
+  <div id="wrap">
+    <header>
+      <a href="https://daejeonsi.nanu.cc"><img id="logo" src="https://daejeonsi.nanu.cc/assets/DJS_LOGO_WIDE.png"></a>
+      <a href="https://daejeonsi.nanu.cc/login" id="logI">로그인</a>
+    </header>
+    <section>
+      <div class="page">
+          <div class="login-wrapper">
+              <h2>Login</h2>
+              <form method="post" action="https://daejeonsi.nanu.cc/api_register" id="login-form">
                 <input type="text" name="userName" placeholder="Email">
                 <input type="password" name="userPassword" placeholder="Password">
                 <label for="remember-check">
-                    <input type="checkbox" id="remember-check">아이디 저장하기
+                  <p>아이디 저장하기</p>
+                  <input type="checkbox" id="remember-check">
                 </label>
                 <input type="submit" value="Login">
-            </form>
-        </div>
-    </div>
-  </section>
-  <footer>
-    
-  </footer>
+              </form>
+          </div>
+      </div>
+    </section>
+    <footer>
+      
+    </footer>
+  </div>
 </body>
 </html>
