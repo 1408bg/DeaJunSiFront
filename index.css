@@ -7,51 +7,67 @@
   font-style: normal;
 }
 
-a {
-  color: aliceblue;
+#wrap {
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  align-items: center;
 }
 
+/* 모든 태그를 대상으로 한 css*/
 * {
   text-decoration: none;
   font-family: 'SUITE-Regular';
   padding: 0;
-  /* 주석 */
   margin: 0;
-  /* 주석 */
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+a {
+  color: aliceblue;
 }
 
-li {
-  display: inline-block;
-  margin-left: 16px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
+/* 시맨틱 태그를 대상으로 한 css */
 header {
   background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  padding-left: 32px;
-  padding-right: 32px;
   display: flex;
-
-
   justify-content: space-between;
   align-items: center;
-  max-height: 100px;
+  height: 50px;
+  width: 100%;
   position: sticky;
+}
+
+section {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60%;
+  width: 600px;
+  position: sticky;
+  margin : 0 auto;
+  overflow: hidden;
 }
 
-header img {
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  position: sticky;
+}
+
+#logo {
   max-height: 50px;
+  margin-left: 32px;
 }
 
-.intro {
+#logI {
+  margin-right: 32px;
+}
+
+.page {
+  margin-top: 32px;
   margin-left: 10px;
   margin-right: 10px;
   font-size: 2.5em;
@@ -65,4 +81,51 @@ header img {
 h1 {
   font-size: 3em;
   font-style: bold;
+}
+
+.login-wrapper{
+  position: fixed;
+  margin-top: -450px;
+  width: 400px;
+  height: 350px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.login-wrapper > label {
+  float:left;
+}
+label > p {
+  font-size: 20pt;
+  margin-top: 10px;
+  float:left;
+}
+.login-wrapper > h2{
+  font-size: 32px;
+  color: #6A24FE;
+  margin-bottom: 20px;
+}
+#login-form > input{
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  background-color: #F8F8F8;
+}
+#login-form > input::placeholder{
+  color: #D2D2D2;
+}
+#login-form > input[type="submit"]{
+  color: #fff;
+  font-size: 16px;
+  background-color: #6A24FE;
+  margin-top: 20px;
+}
+#remember-check {
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  margin-left: 80px;
 }
