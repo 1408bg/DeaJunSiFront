@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+a {
+  color: aliceblue;
+}
+
+* {
+  text-decoration: none;
+  font-family: 'SUITE-Regular';
+  padding: 0;
+  /* 주석 */
+  margin: 0;
+  /* 주석 */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+
+
+  justify-content: space-between;
+  align-items: center;
+  max-height: 100px;
+  position: sticky;
+  display: flex;
+}
+
+header img {
+  max-height: 50px;
+}
+
+.intro {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 2.5em;
+  position: relative;
+  top: 30%;
+  align-items: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 3em;
+  font-style: bold;
+}
