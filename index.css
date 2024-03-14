@@ -87,7 +87,7 @@ h1 {
   margin-top: -350px;
   margin-left: 100px;
   width: 400px;
-  height: 350px;
+  height: 150px;
   box-sizing: border-box;
 }
 .login-wrapper > label {
@@ -121,13 +121,6 @@ label > p {
   background-color: #6A24FE;
   margin-top: px;
 }
-#remember-check {
-  font-size: 25px;
-  width: 30px;
-  height: 30px;
-  top: 0;
-  margin-left: 170px;
-}
 #logT {
   font-size: 38px;
 }
@@ -137,6 +130,7 @@ label > p {
   height: 100px;
   box-sizing: border-box;
   margin-left: 100px;
+  margin-top: -70px
 }
 
 #addUser > p {
