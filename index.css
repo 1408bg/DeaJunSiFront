@@ -75,7 +75,6 @@ footer {
   top: 30%;
   align-items: center;
   text-align: center;
-  color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -85,10 +84,10 @@ h1 {
 
 .login-wrapper{
   position: fixed;
-  margin-top: -450px;
+  margin-top: -350px;
+  margin-left: 100px;
   width: 400px;
   height: 350px;
-  padding: 40px;
   box-sizing: border-box;
 }
 .login-wrapper > label {
@@ -120,15 +119,34 @@ label > p {
   color: #fff;
   font-size: 16px;
   background-color: #6A24FE;
-  margin-top: 20px;
+  margin-top: px;
 }
 #remember-check {
   font-size: 25px;
   width: 30px;
   height: 30px;
   top: 0;
-  margin-left: 80px;
+  margin-left: 170px;
 }
 #logT {
   font-size: 38px;
+}
+
+#addUser {
+  width: 400px;
+  height: 100px;
+  box-sizing: border-box;
+  margin-left: 100px;
+}
+
+#addUser > p {
+  font-size: 22px;
+  float: left;
+  margin-left: 6px;
+}
+#addUser > a {
+  font-size: 22px;
+  float: right;
+  color:#6A24FE;
+  margin-right: 6px;
 }
