@@ -19,7 +19,12 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^3.0.0
-  webview_flutter: ^3.0.4
+  webview_flutter: ^4.0.2
+  firebase_core: ^2.31.0
+  firebase_messaging: ^14.9.2
+  flutter_local_notifications: ^9.1.5
+  http:
+  shared_preferences:
 
 flutter:
 

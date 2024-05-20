@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828670110990",
+    "project_id": "djs-app-50ef7",
+    "storage_bucket": "djs-app-50ef7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828670110990:android:70590fa058deccae2cfb5f",
+        "android_client_info": {
+          "package_name": "com.djs.djs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR7Wo3aMdP7Sr6403cUJgllQSSWOAlUw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
